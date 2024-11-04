@@ -3,7 +3,7 @@
 ### Project Title: Sales Performance Analysis
 
 ### Project Overview
-This project aims to explore and analyze sales data to generate key insights about the retail store performance.The analysis is designed to produce an interactive dashboard that highlights these key findings, thereby enabling stakeholders to make data-driven decisions and to improve overall business performance.
+This project aims to explore and analyze sales data to generate key insights about a retail store performance.The analysis is designed to produce an interactive dashboard that highlights key findings, thereby enabling stakeholders to make data-driven decisions and to improve overall business performance.
 
 ### Data Sources
 The data used for this analysis is LITA Capstone Dataset.xlsx and this is an open source data that can be downloaded from anyrepository site.
@@ -56,7 +56,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
   
 ### Data Analysis
-This is where line of codes, metrics is imputed for  the calculation of the tools used 
+This is where line of codes, metrics was imputed for  the calculation of the tools used 
 
 ```Excel
 =SUMIF(D2:D9922,D2,H2:H9922)
