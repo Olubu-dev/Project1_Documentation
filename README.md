@@ -64,4 +64,5 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
 
   ### Data Visualization
   https://github.com/Olubu-dev/Project1_Documentation/blob/main/Excel_Sales.PNG
-  
+
+  https://github.com/Olubu-dev/Project1_Documentation/blob/main/Power%20BI_Sales.PNG
