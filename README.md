@@ -30,7 +30,7 @@ This project aims to explore and analyze sales data to generate key insights abo
 
 ### Data Sources
 ---
-The data used for this analysis is LITA Capstone Dataset.xlsx and this is an open source data that can be downloaded from anyrepository site.
+The data used for this analysis is LITA Capstone Dataset.xlsx and this is an open source data that can be downloaded from any repository site.
 
 ### Tools Used
 ---
