@@ -63,5 +63,5 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
 
   ### Data Visualization
-  This phase contains the visualizations from the Excel and Power BI
+  https://github.com/Olubu-dev/Project1_Documentation/blob/main/Excel_Sales.PNG
   
