@@ -32,12 +32,18 @@ This involves the initial exploration of the data to answer some basic questions
 - What are the sales trend in days, month, and years?
 - What are the sales performance across the regions?
 
-### Methodology
-- Excel
+### Data Analysis
+```Excel
+=SUMIF(D2:D9922,D2,H2:H9922)
+
+=AVERAGEIF(C2:C9922,C2,H2:H9922)
   1. Pivot tables was used to summarize total sales by product, region, and month;top selling products
   2. Formulas was used to calculate metrics like average sales per product and total revenue by region
+```
 
-- SQL
+```SQL
+Select top 1 product,SUM(revenue)as HighestsellingProduct from [dbo].[PROJECT1]
+group by Product
 The xlsx file was converted to a csv file and  imported to SQL server environment before creating a databasea and validating the following queries;
   - Retrieving total sales for each product category
   - Finding the top 5 customers by total purchase amount
@@ -46,6 +52,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Finding the highest selling product by total sales value
   - Identifying products with no sales in the last quarter
   - Calculating the percentage of total sales contributed by each region
+```
 
 - Power BI
   Here, a dashboard was created to visualize the insights found in Excel and SQL which includes the following;
@@ -55,8 +62,3 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Slicers to filter sales data to quickly analyze performance in specific areas and identify sales trends
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
   
-### Data Analysis
-This is where line of codes, metrics was imputed for  the calculation of the tools used 
-
-```Excel
-=SUMIF(D2:D9922,D2,H2:H9922)
