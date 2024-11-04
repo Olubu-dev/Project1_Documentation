@@ -69,3 +69,20 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
 
 ![SQL_Sales](https://github.com/user-attachments/assets/ad981625-3aaf-4c75-80e7-34953f7c0492)
 
+### Key Findings
+- Total Sales reached ₦2.1 million, with an impressive average order value of ₦105,000.
+
+Regional Income:
+- The South dominated revenue generation, accounting for 44.2% of total sales, followed by the East at 23.1%, the North at 18%, and the West at 14.3%.
+
+Top Products:
+- Hats led in quantity sold with 15,929 units, while shoes emerged with the highest revenue, generating ₦613,380. In contrast, jackets lagged with only 5,452 units sold, indicating opportunities for promotional strategies.
+
+Daily and Yearly Trends:
+- The highest daily sales peaked at ₦1,121,655 on the 31st of the month, while 2023 recorded ₦1,105,330 in total sales. However, 2024 had a decline to ₦995,760, indicating that there are some market challenges that occured in 2024.
+
+Monthly Sales:
+- February stood out with the highest sales at ₦546,300, while December was the lowest, showing that the products were purchased based on the seasons evolving.
+
+Interactive Analysis:
+- The use of slicers for key insights helps to explore revenue changes and sales trends, enhancing data-driven decision-making.
