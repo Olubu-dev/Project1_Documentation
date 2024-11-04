@@ -63,11 +63,13 @@ This involves the initial exploration of the data to answer some basic questions
 ---
 ```Excel
 =SUMIF(D2:D9922,D2,H2:H9922)
-
+```
+```
 =AVERAGEIF(C2:C9922,C2,H2:H9922)
+```
   1. Pivot tables was used to summarize total sales by product, region, and month;top selling products
   2. Formulas was used to calculate metrics like average sales per product and total revenue by region
-```
+
 
 ```SQL
 Select top 1 product,SUM(revenue)as HighestsellingProduct from [dbo].[PROJECT1]
