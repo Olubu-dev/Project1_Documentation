@@ -74,6 +74,7 @@ This involves the initial exploration of the data to answer some basic questions
 ```SQL
 Select top 1 product,SUM(revenue)as HighestsellingProduct from [dbo].[PROJECT1]
 group by Product
+```
 The xlsx file was converted to a csv file and  imported to SQL server environment before creating a databasea and validating the following queries;
   - Retrieving total sales for each product category
   - Finding the top 5 customers by total purchase amount
@@ -82,7 +83,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Finding the highest selling product by total sales value
   - Identifying products with no sales in the last quarter
   - Calculating the percentage of total sales contributed by each region
-```
+
 
 - Power BI
   Here, a dashboard was created to visualize the insights found in Excel and SQL which includes the following;
