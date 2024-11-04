@@ -97,10 +97,75 @@ Interactive Analysis:
 The sales performance analysis revealed key insights into regional revenue distribution and the performance of the products, indicating opportunities for growth. By implementing the recommended suggestions, the retail store can improve sales, have better customer engagement, and above all align its offers with market demands.
 
 ### Appendix
-- Excel	
+- Excel	metrics used to calculate Average Sales and Aggregate
 ![image](https://github.com/user-attachments/assets/0933170a-7552-4d3f-ab6d-c6ef30875fd0)
-							
+
+- For Pivot table in Excel       
 ![image](https://github.com/user-attachments/assets/76e2b4d8-b1d3-4784-a3a1-c13ab9b8802c)
 
+- SQL Queries
+Create database money_db
+Select *from [dbo].[PROJECT1]
 
+----Retrieve total sales for each product category---
+
+Select product,SUM(revenue) as TotalSales from [dbo].[PROJECT1]
+group by product
+
+----Highest selling product by Total Sales value----
+Select top 1 product,SUM(revenue)as HighestsellingProduct from [dbo].[PROJECT1]
+group by Product
+
+---find the number of sales transactions in each region---
+Select region, count(*) AS NumberOfSalesTransaction from [dbo].[PROJECT1]
+group by region
+
+---To calculate the total revenue per product-----
+Select product, SUM(revenue) as TotalRevenue from [dbo].[PROJECT1]
+group by Product
+
+----Calculate the monthly sales total for the current year---
+SELECT
+	FORMAT(ORDERDATE, 'yyyy-MM') AS sales_month,
+	SUM(Revenue) AS monthly_sales_total
+FROM
+	[dbo].[PROJECT1]
+WHERE
+	YEAR(OrderDate) = 2024
+GROUP BY
+	FORMAT(OrderDate, 'yyyy-MM')
+ORDER BY
+	FORMAT(OrderDate, 'yyyy-MM')
+
+--TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT---
+SELECT TOP 5 
+    CUSTOMER_ID, 
+    SUM(revenue) AS TotalPurchase
+FROM 
+    [dbo].[PROJECT1]
+GROUP BY 
+    CUSTOMER_ID
+ORDER BY 
+    TotalPurchase DESC
+
+---Calculate the percentage of total sales contributed by each region----
+SELECT
+	region,
+	SUM(Revenue) AS region_sales_total,
+	(SUM(Revenue) * 100) / (SELECT SUM(Revenue) FROM [dbo].[PROJECT1])
+	AS sales_percentage
+FROM
+	[dbo].[PROJECT1]
+GROUP BY
+	region
+
+---Identify the products with no sales in the last quarter---
+SELECT
+    Product
+FROM 
+    [dbo].[PROJECT1]
+GROUP BY 
+    Product
+HAVING
+    SUM(CASE WHEN OrderDate >= '2024-01-01' AND OrderDate < '2024-04-01' THEN 1 ELSE 0 END) > 0
 
