@@ -61,4 +61,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Regional breakdowns
   - Slicers to filter sales data to quickly analyze performance in specific areas and identify sales trends
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
+
+  ### Data Visualization
+  This phase contains the visualizations from the Excel and Power BI
   
