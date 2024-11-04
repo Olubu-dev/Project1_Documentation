@@ -63,6 +63,9 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
 
   ### Data Visualization
-  https://github.com/Olubu-dev/Project1_Documentation/blob/main/Excel_Sales.PNG
+![Excel_Sales](https://github.com/user-attachments/assets/7d947475-1862-4fa3-859a-34e9dcc3afce)
 
-  https://github.com/Olubu-dev/Project1_Documentation/blob/main/Power%20BI_Sales.PNG
+![Power BI_Sales](https://github.com/user-attachments/assets/feb14efc-be98-4680-a900-2c612e3e9714)
+
+![SQL_Sales](https://github.com/user-attachments/assets/ad981625-3aaf-4c75-80e7-34953f7c0492)
+
