@@ -2,13 +2,38 @@
 
 ### Project Title: Sales Performance Analysis
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparations](#data-cleaning-preparations)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Key Findings](#key-findings)
+
+[Recommendations](#recommendations)
+
+[Conclusion](#conclusion)
+
+[Appendix](#appendix)
+
 ### Project Overview
+---
 This project aims to explore and analyze sales data to generate key insights about a retail store performance.The analysis is designed to produce an interactive dashboard that highlights key findings, thereby enabling stakeholders to make data-driven decisions and to improve overall business performance.
 
 ### Data Sources
+---
 The data used for this analysis is LITA Capstone Dataset.xlsx and this is an open source data that can be downloaded from anyrepository site.
 
 ### Tools Used
+---
 - Microsoft Excel
   1. For Data Cleaning
   2. For Analysis
@@ -21,18 +46,21 @@ The data used for this analysis is LITA Capstone Dataset.xlsx and this is an ope
   2. For Data Visualization
 
 ### Data Cleaning and Preparations
+---
 This phase includes cleaning and preparing the data before visualizing it. The following steps was adopted:
   1. Data loading and Inspection
   2. Removal of Duplicate entries
   3. Data Cleaning and formatting
 
 ### Exploratory Data Analysis
+---
 This involves the initial exploration of the data to answer some basic questions about the data such as;
 - What are the top selling products?
 - What are the sales trend in days, month, and years?
 - What are the sales performance across the regions?
 
 ### Data Analysis
+---
 ```Excel
 =SUMIF(D2:D9922,D2,H2:H9922)
 
@@ -63,6 +91,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
   - Bar charts, line chart, scatter plot, cards was also used to visualize trends in the data
 
   ### Data Visualization
+  ---
 ![Excel_Sales](https://github.com/user-attachments/assets/7d947475-1862-4fa3-859a-34e9dcc3afce)
 
 ![Power BI_Sales](https://github.com/user-attachments/assets/feb14efc-be98-4680-a900-2c612e3e9714)
@@ -70,6 +99,7 @@ The xlsx file was converted to a csv file and  imported to SQL server environmen
 ![SQL_Sales](https://github.com/user-attachments/assets/ad981625-3aaf-4c75-80e7-34953f7c0492)
 
 ### Key Findings
+---
 - Total Sales reached ₦2.1 million, with an impressive average order value of ₦105,000.
 
 Regional Income:
@@ -88,15 +118,18 @@ Interactive Analysis:
 - The use of slicers for key insights helps to explore revenue changes and sales trends, enhancing data-driven decision-making.
 
 ### Recommendations
+---
 - The store can come up with special offer/promotions during the months where sales is low, to boost the Sales in those seasons.
 - Investigate the reasons for decline in the sales in certain regions and identify areas for improvement.
 - The overall sales performance in the South is strong, there could be targetted offers to boost the sales in the region.
 - There could be emails or messages sent to customers from time to time to get feedback on product satisfaction and understand market trend.
 
 ### Conclusion
+---
 The sales performance analysis revealed key insights into regional revenue distribution and the performance of the products, indicating opportunities for growth. By implementing the recommended suggestions, the retail store can improve sales, have better customer engagement, and above all align its offers with market demands.
 
 ### Appendix
+---
 - Excel	metrics used to calculate Average Sales and Aggregate
 ![image](https://github.com/user-attachments/assets/0933170a-7552-4d3f-ab6d-c6ef30875fd0)
 
